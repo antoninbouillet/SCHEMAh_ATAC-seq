@@ -5,6 +5,7 @@ source /home/bouille251/venv_deeptools/bin/activate
 baseDir=$(readlink -f $0 | xargs dirname | xargs dirname)
 norm_dir=${baseDir}/data_processing/BigWig/normalized
 raw_dir=${baseDir}/data_processing/BigWig/raw
+pDir=${baseDir}/plots/deeptools
 
 genes="/mnt/MERSEA/Ref/Oyster_Genome/Sanger_free/genes.bed"
 
@@ -17,6 +18,7 @@ color_list="#f0d16d #f0d16d #f0d16d #6d8cf0 #6d8cf0 #6d8cf0 #EC7E70"
 
 cd $norm_dir
 
+: '
 computeMatrix scale-regions \
 -S $sample_list_norm \
 -p 16 \
@@ -27,10 +29,11 @@ computeMatrix scale-regions \
 --downstream 500 \
 -R $genes \
 -o ${norm_dir}/matrix_normalized.gz
+'
 
 plotProfile \
 --matrixFile matrix_normalized.gz \
---outFileName 'profile_genes_2500bp.pdf' \
+--outFileName ${pDir}/profile_genes_norm_2500bp.pdf \
 --colors $color_list \
 --numPlotsPerRow 3 \
 --plotTitle 'Coverage of normalized ATAC-seq reads whithin genes' \
@@ -41,21 +44,21 @@ plotProfile \
 
 plotHeatmap \
 --matrixFile matrix_normalized.gz \
---outFileName 'heatmap_genes_2500bp.pdf' \
+--outFileName ${pDir}/heatmap_genes_norm_2500bp.pdf \
 --plotTitle 'Coverage of normalized ATAC-seq reads whithin genes' \
 --plotType se
-
+: '
 multiBigwigSummary BED-file \
 --bwfiles $sample_list_norm \
 --smartLabels \
 --binSize 10000 \
 --BED $genes \
 --outFileName summary_genes_norm.npz
-
+'
 
 plotPCA \
 --corData summary_genes_norm.npz \
---plotFile PCA_genes_normalized.pdf \
+--plotFile ${pDir}/PCA_genes_normalized.pdf \
 --plotTitle 'PCA of normalized ATAC-seq reads within genes' \
 --rowCenter \
 --ntop 0 \
@@ -67,7 +70,7 @@ wait
 #données brutes
 
 cd $raw_dir
-
+: '
 computeMatrix scale-regions \
 -S $sample_list_raw \
 -p 16 \
@@ -79,11 +82,11 @@ computeMatrix scale-regions \
 -R $genes \
 -o ${raw_dir}/matrix_raw.gz
 EOF
-
+'
 
 plotProfile \
 --matrixFile matrix_raw.gz \
---outFileName 'profile_genes_2500bp.pdf' \
+--outFileName ${pDir}/profile_genes_raw_2500bp.pdf \
 --colors $color_list \
 --numPlotsPerRow 3 \
 --plotTitle 'Coverage of raw ATAC-seq reads whithin genes' \
@@ -93,21 +96,22 @@ plotProfile \
 
 plotHeatmap \
 --matrixFile matrix_raw.gz \
---outFileName 'heatmap_genes_2500bp.pdf' \
+--outFileName ${pDir}/heatmap_genes_raw_2500bp.pdf \
 --plotTitle 'Coverage of raw ATAC-seq reads whithin genes' \
 --plotType se
 
-
+: '
 multiBigwigSummary BED-file \
 --bwfiles $sample_list_raw \
 --smartLabels \
 --binSize 10000 \
 --BED $genes \
 --outFileName summary_genes_raw.npz
+'
 
 plotPCA \
 --corData summary_genes_raw.npz \
---plotFile PCA_genes_raw.pdf \
+--plotFile ${pDir}/PCA_genes_raw.pdf \
 --plotTitle 'PCA of raw ATAC-seq reads within genes' \
 --rowCenter \
 --ntop 0 \
