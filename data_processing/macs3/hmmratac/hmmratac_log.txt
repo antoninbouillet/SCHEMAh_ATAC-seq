@@ -1,0 +1,1691 @@
+(Ubuntu22 r7411)bouille251@V301V-JGRBA1:/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq$ ./hmmratac.sh
+
+
+
+
+------------ 5a1 ------------
+
+
+
+
+INFO  @ 26 Oct 2025 21:16:40: [120 MB] 
+# Command line: hmmratac -i /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5a1/5a1.bedpe⁠ -n 5a1 -f BEDPE --binsize 10 -c 8 -l 15 -u 75 --min-frag-p 0.05 --hmm-type poisson --decoding-steps 6000 --minlen 75 --save-states --outdir /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5a1
+# Random seed selected as: 10151
+# Use --hmm-type to select a Gaussian ('gaussian') or Poisson ('poisson') model for the hidden markov model in HMMRATAC. Default: 'gaussian'. 
+ 
+INFO  @ 26 Oct 2025 21:16:40: [120 MB] #1 Read fragments from BEDPE file... 
+INFO  @ 26 Oct 2025 21:16:41: [201 MB]  1000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:42: [204 MB]  2000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:43: [212 MB]  3000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:44: [219 MB]  4000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:45: [227 MB]  5000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:46: [234 MB]  6000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:46: [242 MB]  7000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:47: [252 MB]  8000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:48: [263 MB]  9000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:49: [266 MB]  10000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:50: [273 MB]  11000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:51: [281 MB]  12000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:52: [289 MB]  13000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:53: [306 MB]  14000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:54: [308 MB]  15000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:55: [316 MB]  16000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:56: [324 MB]  17000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:57: [331 MB]  18000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:57: [339 MB]  19000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:58: [346 MB]  20000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:16:59: [353 MB]  21000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:00: [363 MB]  22000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:01: [371 MB]  23000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:02: [379 MB]  24000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:03: [386 MB]  25000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:04: [394 MB]  26000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:05: [401 MB]  27000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:06: [419 MB]  28000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:07: [419 MB]  29000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:08: [426 MB]  30000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:09: [433 MB]  31000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:10: [441 MB]  32000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:11: [454 MB]  33000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:11: [457 MB]  34000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:12: [461 MB]  35000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:13: [469 MB]  36000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:14: [477 MB]  37000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:15: [484 MB]  38000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:16: [492 MB]  39000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:17: [500 MB]  40000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:18: [507 MB]  41000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:19: [515 MB]  42000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:20: [532 MB]  43000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:21: [532 MB]  44000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:22: [539 MB]  45000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:22: [547 MB]  46000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:23: [554 MB]  47000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:24: [562 MB]  48000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:25: [570 MB]  49000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:26: [577 MB]  50000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:27: [591 MB]  51000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:28: [597 MB]  52000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:29: [605 MB]  53000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:30: [612 MB]  54000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:31: [620 MB]  55000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:32: [628 MB]  56000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:33: [643 MB]  57000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:34: [643 MB]  58000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:35: [651 MB]  59000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:36: [659 MB]  60000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:36: [666 MB]  61000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:37: [674 MB]  62000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:38: [682 MB]  63000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:39: [689 MB]  64000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:40: [707 MB]  65000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:41: [715 MB]  66000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:42: [723 MB]  67000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:43: [730 MB]  68000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:44: [738 MB]  69000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:45: [745 MB]  70000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:17:46: [753 MB]  71000000 fragments parsed 
+INFO  @ 26 Oct 2025 21:18:44: [753 MB] #  Read 71767864 fragments. 
+INFO  @ 26 Oct 2025 21:18:44: [753 MB] #2 Use EM algorithm to estimate means and stddevs of fragment lengths 
+INFO  @ 26 Oct 2025 21:18:44: [753 MB] #  for mono-, di-, and tri-nucleosomal signals... 
+INFO  @ 26 Oct 2025 21:18:44: [753 MB] # A random seed 10151 has been used in the sampling function 
+INFO  @ 26 Oct 2025 21:18:54: [821 MB] # Downsampled 923919 fragments will be used for EM training... 
+INFO  @ 26 Oct 2025 21:22:49: [821 MB] # Reached convergence after 18 iterations 
+INFO  @ 26 Oct 2025 21:22:49: [821 MB] #  The means and stddevs after EM: 
+INFO  @ 26 Oct 2025 21:22:49: [821 MB] #                         short       mono         di        tri 
+INFO  @ 26 Oct 2025 21:22:49: [821 MB] #             means:         50      144.5      336.7        600 
+INFO  @ 26 Oct 2025 21:22:49: [821 MB] #           stddevs:         20       36.3         74         20 
+INFO  @ 26 Oct 2025 21:22:49: [821 MB] #  Compute the weights for each fragment length for each of the four signal types 
+INFO  @ 26 Oct 2025 21:23:03: [821 MB] #  Generate short, mono-, di-, and tri-nucleosomal signals 
+INFO  @ 26 Oct 2025 21:57:53: [953 MB] #  Pile up all fragments 
+INFO  @ 26 Oct 2025 21:58:56: [1540 MB] #  Convert pileup to fold-change over average signal 
+INFO  @ 26 Oct 2025 21:59:10: [1540 MB] #3 Look for training set from 71767864 fragments 
+INFO  @ 26 Oct 2025 21:59:10: [1540 MB] #  Call peak above within fold-change range of 15 and 75. 
+INFO  @ 26 Oct 2025 21:59:10: [1540 MB] #   The minimum length of the region is set as the average template/fragment length in the dataset: 68 
+INFO  @ 26 Oct 2025 21:59:10: [1540 MB] #   The maximum gap to merge nearby significant regions is set as the flanking size to extend training regions: 1000 
+INFO  @ 26 Oct 2025 21:59:16: [1540 MB] #  Total training regions called after applying the lower cutoff 15: 4753 
+INFO  @ 26 Oct 2025 21:59:16: [1540 MB] #  Total training regions after filtering with upper cutoff 75: 4608 
+INFO  @ 26 Oct 2025 21:59:16: [1540 MB] #  **IMPORTANT** 
+INFO  @ 26 Oct 2025 21:59:16: [1540 MB] #  Please review the cutoff analysis result in /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5a1/5a1_cutoff_analysis.tsv to verify 
+INFO  @ 26 Oct 2025 21:59:16: [1540 MB] #   if the choices of lower, upper and prescanning cutoff are appropriate. 
+INFO  @ 26 Oct 2025 21:59:16: [1540 MB] #   Please read the message in the section 'Choices of cutoff values' by running 
+INFO  @ 26 Oct 2025 21:59:16: [1540 MB] #   `macs3 hmmratac -h` for detail. 
+INFO  @ 26 Oct 2025 21:59:16: [1540 MB] #  **** 
+INFO  @ 26 Oct 2025 22:00:46: [1865 MB] #  We randomly pick 1000 regions for training 
+INFO  @ 26 Oct 2025 22:00:46: [1865 MB] #  We expand the training regions with 1000 basepairs and merge overlap 
+INFO  @ 26 Oct 2025 22:00:46: [1865 MB] #4 Train Hidden Markov Model with Multivariate Gaussian Emission 
+INFO  @ 26 Oct 2025 22:00:46: [1865 MB] #  Extract signals in training regions with bin size of 10 
+INFO  @ 26 Oct 2025 22:00:47: [1865 MB] #  Use Baum-Welch algorithm to train the HMM 
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1047: RuntimeWarning: invalid value encountered in scalar divide
+  shape=mean_X**2 / var_X,
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1048: RuntimeWarning: invalid value encountered in scalar divide
+  scale=var_X / mean_X,  # numpy uses theta = 1 / beta
+INFO  @ 26 Oct 2025 22:00:51: [1865 MB] #   HMM converged: True 
+Traceback (most recent call last):
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 1017, in <module>
+    main()
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 103, in main
+    run(args)
+  File "/home/bouille251/venv_MACS3/lib/python3.10/site-packages/MACS3/Commands/hmmratac_cmd.py", line 356, in run
+    i_open_region = np.where(means_sum == max(means_sum))[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "prescan cutoff = 8"
+[1] "lower cutoff = 15"
+[1] "upper cutoff = 75"
+null device 
+          1 
+
+
+
+
+------------ done ------------
+
+
+
+
+
+
+
+
+------------ 5a2 ------------
+
+
+
+
+INFO  @ 26 Oct 2025 22:00:53: [119 MB] 
+# Command line: hmmratac -i /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5a2/5a2.bedpe⁠ -n 5a2 -f BEDPE --binsize 10 -c 8 -l 15 -u 75 --min-frag-p 0.05 --hmm-type poisson --decoding-steps 6000 --minlen 75 --save-states --outdir /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5a2
+# Random seed selected as: 10151
+# Use --hmm-type to select a Gaussian ('gaussian') or Poisson ('poisson') model for the hidden markov model in HMMRATAC. Default: 'gaussian'. 
+ 
+INFO  @ 26 Oct 2025 22:00:53: [119 MB] #1 Read fragments from BEDPE file... 
+INFO  @ 26 Oct 2025 22:00:54: [200 MB]  1000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:00:55: [203 MB]  2000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:00:56: [210 MB]  3000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:00:57: [215 MB]  4000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:00:58: [226 MB]  5000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:00:59: [231 MB]  6000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:00: [242 MB]  7000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:01: [252 MB]  8000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:02: [257 MB]  9000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:03: [262 MB]  10000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:04: [272 MB]  11000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:05: [278 MB]  12000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:06: [288 MB]  13000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:07: [304 MB]  14000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:08: [310 MB]  15000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:09: [316 MB]  16000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:10: [324 MB]  17000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:11: [332 MB]  18000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:11: [339 MB]  19000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:12: [347 MB]  20000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:13: [355 MB]  21000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:14: [365 MB]  22000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:15: [373 MB]  23000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:16: [381 MB]  24000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:17: [388 MB]  25000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:18: [396 MB]  26000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:19: [401 MB]  27000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:20: [414 MB]  28000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:21: [421 MB]  29000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:22: [429 MB]  30000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:23: [436 MB]  31000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:24: [444 MB]  32000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:25: [451 MB]  33000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:26: [462 MB]  34000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:27: [469 MB]  35000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:27: [476 MB]  36000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:28: [484 MB]  37000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:29: [491 MB]  38000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:30: [499 MB]  39000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:31: [507 MB]  40000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:32: [518 MB]  41000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:33: [525 MB]  42000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:34: [532 MB]  43000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:35: [540 MB]  44000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:36: [547 MB]  45000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:37: [555 MB]  46000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:38: [562 MB]  47000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:39: [570 MB]  48000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:40: [578 MB]  49000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:41: [585 MB]  50000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:42: [601 MB]  51000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:43: [609 MB]  52000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:44: [616 MB]  53000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:45: [624 MB]  54000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:46: [631 MB]  55000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:47: [639 MB]  56000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:48: [647 MB]  57000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:48: [654 MB]  58000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:49: [662 MB]  59000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:50: [670 MB]  60000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:51: [677 MB]  61000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:52: [685 MB]  62000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:53: [693 MB]  63000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:54: [702 MB]  64000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:55: [709 MB]  65000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:56: [717 MB]  66000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:57: [724 MB]  67000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:58: [732 MB]  68000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:01:59: [740 MB]  69000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:02:00: [744 MB]  70000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:03:02: [744 MB] #  Read 70068554 fragments. 
+INFO  @ 26 Oct 2025 22:03:02: [744 MB] #2 Use EM algorithm to estimate means and stddevs of fragment lengths 
+INFO  @ 26 Oct 2025 22:03:02: [744 MB] #  for mono-, di-, and tri-nucleosomal signals... 
+INFO  @ 26 Oct 2025 22:03:02: [744 MB] # A random seed 10151 has been used in the sampling function 
+INFO  @ 26 Oct 2025 22:03:13: [790 MB] # Downsampled 565468 fragments will be used for EM training... 
+INFO  @ 26 Oct 2025 22:05:16: [790 MB] # Reached convergence after 15 iterations 
+INFO  @ 26 Oct 2025 22:05:16: [790 MB] #  The means and stddevs after EM: 
+INFO  @ 26 Oct 2025 22:05:16: [790 MB] #                         short       mono         di        tri 
+INFO  @ 26 Oct 2025 22:05:16: [790 MB] #             means:         50      151.4      366.8        600 
+INFO  @ 26 Oct 2025 22:05:16: [790 MB] #           stddevs:         20       44.4       65.9         20 
+INFO  @ 26 Oct 2025 22:05:16: [790 MB] #  Compute the weights for each fragment length for each of the four signal types 
+INFO  @ 26 Oct 2025 22:05:29: [809 MB] #  Generate short, mono-, di-, and tri-nucleosomal signals 
+INFO  @ 26 Oct 2025 22:39:59: [935 MB] #  Pile up all fragments 
+INFO  @ 26 Oct 2025 22:41:00: [1521 MB] #  Convert pileup to fold-change over average signal 
+INFO  @ 26 Oct 2025 22:41:13: [1521 MB] #3 Look for training set from 70068554 fragments 
+INFO  @ 26 Oct 2025 22:41:13: [1521 MB] #  Call peak above within fold-change range of 15 and 75. 
+INFO  @ 26 Oct 2025 22:41:13: [1521 MB] #   The minimum length of the region is set as the average template/fragment length in the dataset: 62 
+INFO  @ 26 Oct 2025 22:41:13: [1521 MB] #   The maximum gap to merge nearby significant regions is set as the flanking size to extend training regions: 1000 
+INFO  @ 26 Oct 2025 22:41:19: [1521 MB] #  Total training regions called after applying the lower cutoff 15: 4402 
+INFO  @ 26 Oct 2025 22:41:19: [1521 MB] #  Total training regions after filtering with upper cutoff 75: 4280 
+INFO  @ 26 Oct 2025 22:41:19: [1521 MB] #  **IMPORTANT** 
+INFO  @ 26 Oct 2025 22:41:19: [1521 MB] #  Please review the cutoff analysis result in /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5a2/5a2_cutoff_analysis.tsv to verify 
+INFO  @ 26 Oct 2025 22:41:19: [1521 MB] #   if the choices of lower, upper and prescanning cutoff are appropriate. 
+INFO  @ 26 Oct 2025 22:41:19: [1521 MB] #   Please read the message in the section 'Choices of cutoff values' by running 
+INFO  @ 26 Oct 2025 22:41:19: [1521 MB] #   `macs3 hmmratac -h` for detail. 
+INFO  @ 26 Oct 2025 22:41:19: [1521 MB] #  **** 
+INFO  @ 26 Oct 2025 22:42:49: [1953 MB] #  We randomly pick 1000 regions for training 
+INFO  @ 26 Oct 2025 22:42:49: [1953 MB] #  We expand the training regions with 1000 basepairs and merge overlap 
+INFO  @ 26 Oct 2025 22:42:49: [1953 MB] #4 Train Hidden Markov Model with Multivariate Gaussian Emission 
+INFO  @ 26 Oct 2025 22:42:49: [1953 MB] #  Extract signals in training regions with bin size of 10 
+INFO  @ 26 Oct 2025 22:42:50: [1953 MB] #  Use Baum-Welch algorithm to train the HMM 
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1047: RuntimeWarning: invalid value encountered in scalar divide
+  shape=mean_X**2 / var_X,
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1048: RuntimeWarning: invalid value encountered in scalar divide
+  scale=var_X / mean_X,  # numpy uses theta = 1 / beta
+INFO  @ 26 Oct 2025 22:42:54: [1953 MB] #   HMM converged: True 
+Traceback (most recent call last):
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 1017, in <module>
+    main()
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 103, in main
+    run(args)
+  File "/home/bouille251/venv_MACS3/lib/python3.10/site-packages/MACS3/Commands/hmmratac_cmd.py", line 356, in run
+    i_open_region = np.where(means_sum == max(means_sum))[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "prescan cutoff = 8"
+[1] "lower cutoff = 15"
+[1] "upper cutoff = 75"
+null device 
+          1 
+
+
+
+
+------------ done ------------
+
+
+
+
+
+
+
+
+------------ 5a3 ------------
+
+
+
+
+INFO  @ 26 Oct 2025 22:42:57: [119 MB] 
+# Command line: hmmratac -i /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5a3/5a3.bedpe⁠ -n 5a3 -f BEDPE --binsize 10 -c 8 -l 15 -u 75 --min-frag-p 0.05 --hmm-type poisson --decoding-steps 6000 --minlen 75 --save-states --outdir /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5a3
+# Random seed selected as: 10151
+# Use --hmm-type to select a Gaussian ('gaussian') or Poisson ('poisson') model for the hidden markov model in HMMRATAC. Default: 'gaussian'. 
+ 
+INFO  @ 26 Oct 2025 22:42:57: [119 MB] #1 Read fragments from BEDPE file... 
+INFO  @ 26 Oct 2025 22:42:57: [200 MB]  1000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:42:58: [203 MB]  2000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:42:59: [210 MB]  3000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:00: [215 MB]  4000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:01: [227 MB]  5000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:02: [234 MB]  6000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:03: [241 MB]  7000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:04: [246 MB]  8000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:05: [262 MB]  9000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:06: [266 MB]  10000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:07: [274 MB]  11000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:08: [282 MB]  12000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:09: [290 MB]  13000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:10: [297 MB]  14000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:11: [305 MB]  15000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:12: [319 MB]  16000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:12: [326 MB]  17000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:13: [333 MB]  18000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:14: [340 MB]  19000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:15: [353 MB]  20000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:16: [357 MB]  21000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:17: [367 MB]  22000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:18: [375 MB]  23000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:19: [380 MB]  24000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:20: [397 MB]  25000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:21: [408 MB]  26000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:22: [411 MB]  27000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:23: [416 MB]  28000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:24: [427 MB]  29000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:25: [434 MB]  30000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:25: [443 MB]  31000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:26: [451 MB]  32000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:27: [458 MB]  33000000 fragments parsed 
+INFO  @ 26 Oct 2025 22:43:56: [466 MB] #  Read 33820687 fragments. 
+INFO  @ 26 Oct 2025 22:43:56: [466 MB] #2 Use EM algorithm to estimate means and stddevs of fragment lengths 
+INFO  @ 26 Oct 2025 22:43:56: [466 MB] #  for mono-, di-, and tri-nucleosomal signals... 
+INFO  @ 26 Oct 2025 22:43:56: [466 MB] # A random seed 10151 has been used in the sampling function 
+INFO  @ 26 Oct 2025 22:44:00: [466 MB] # Downsampled 633142 fragments will be used for EM training... 
+INFO  @ 26 Oct 2025 22:46:19: [466 MB] # Reached convergence after 15 iterations 
+INFO  @ 26 Oct 2025 22:46:19: [466 MB] #  The means and stddevs after EM: 
+INFO  @ 26 Oct 2025 22:46:19: [466 MB] #                         short       mono         di        tri 
+INFO  @ 26 Oct 2025 22:46:19: [466 MB] #             means:         50        150      341.2        600 
+INFO  @ 26 Oct 2025 22:46:19: [466 MB] #           stddevs:         20       36.3       71.2         20 
+INFO  @ 26 Oct 2025 22:46:19: [466 MB] #  Compute the weights for each fragment length for each of the four signal types 
+INFO  @ 26 Oct 2025 22:46:26: [466 MB] #  Generate short, mono-, di-, and tri-nucleosomal signals 
+INFO  @ 26 Oct 2025 23:03:15: [530 MB] #  Pile up all fragments 
+INFO  @ 26 Oct 2025 23:03:50: [886 MB] #  Convert pileup to fold-change over average signal 
+INFO  @ 26 Oct 2025 23:03:57: [886 MB] #3 Look for training set from 33820687 fragments 
+INFO  @ 26 Oct 2025 23:03:57: [886 MB] #  Call peak above within fold-change range of 15 and 75. 
+INFO  @ 26 Oct 2025 23:03:57: [886 MB] #   The minimum length of the region is set as the average template/fragment length in the dataset: 76 
+INFO  @ 26 Oct 2025 23:03:57: [886 MB] #   The maximum gap to merge nearby significant regions is set as the flanking size to extend training regions: 1000 
+INFO  @ 26 Oct 2025 23:04:01: [892 MB] #  Total training regions called after applying the lower cutoff 15: 3256 
+INFO  @ 26 Oct 2025 23:04:01: [892 MB] #  Total training regions after filtering with upper cutoff 75: 3140 
+INFO  @ 26 Oct 2025 23:04:01: [892 MB] #  **IMPORTANT** 
+INFO  @ 26 Oct 2025 23:04:01: [892 MB] #  Please review the cutoff analysis result in /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5a3/5a3_cutoff_analysis.tsv to verify 
+INFO  @ 26 Oct 2025 23:04:01: [892 MB] #   if the choices of lower, upper and prescanning cutoff are appropriate. 
+INFO  @ 26 Oct 2025 23:04:01: [892 MB] #   Please read the message in the section 'Choices of cutoff values' by running 
+INFO  @ 26 Oct 2025 23:04:01: [892 MB] #   `macs3 hmmratac -h` for detail. 
+INFO  @ 26 Oct 2025 23:04:01: [892 MB] #  **** 
+INFO  @ 26 Oct 2025 23:04:47: [1070 MB] #  We randomly pick 1000 regions for training 
+INFO  @ 26 Oct 2025 23:04:47: [1070 MB] #  We expand the training regions with 1000 basepairs and merge overlap 
+INFO  @ 26 Oct 2025 23:04:47: [1070 MB] #4 Train Hidden Markov Model with Multivariate Gaussian Emission 
+INFO  @ 26 Oct 2025 23:04:47: [1070 MB] #  Extract signals in training regions with bin size of 10 
+INFO  @ 26 Oct 2025 23:04:47: [1070 MB] #  Use Baum-Welch algorithm to train the HMM 
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1047: RuntimeWarning: invalid value encountered in scalar divide
+  shape=mean_X**2 / var_X,
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1048: RuntimeWarning: invalid value encountered in scalar divide
+  scale=var_X / mean_X,  # numpy uses theta = 1 / beta
+INFO  @ 26 Oct 2025 23:04:51: [1070 MB] #   HMM converged: True 
+Traceback (most recent call last):
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 1017, in <module>
+    main()
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 103, in main
+    run(args)
+  File "/home/bouille251/venv_MACS3/lib/python3.10/site-packages/MACS3/Commands/hmmratac_cmd.py", line 356, in run
+    i_open_region = np.where(means_sum == max(means_sum))[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "prescan cutoff = 8"
+[1] "lower cutoff = 15"
+[1] "upper cutoff = 75"
+null device 
+          1 
+
+
+
+
+------------ done ------------
+
+
+
+
+
+
+
+
+------------ C1 ------------
+
+
+
+
+INFO  @ 26 Oct 2025 23:04:54: [119 MB] 
+# Command line: hmmratac -i /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/C1/C1.bedpe⁠ -n C1 -f BEDPE --binsize 10 -c 8 -l 15 -u 75 --min-frag-p 0.05 --hmm-type poisson --decoding-steps 6000 --minlen 75 --save-states --outdir /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/C1
+# Random seed selected as: 10151
+# Use --hmm-type to select a Gaussian ('gaussian') or Poisson ('poisson') model for the hidden markov model in HMMRATAC. Default: 'gaussian'. 
+ 
+INFO  @ 26 Oct 2025 23:04:54: [119 MB] #1 Read fragments from BEDPE file... 
+INFO  @ 26 Oct 2025 23:04:55: [201 MB]  1000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:04:56: [204 MB]  2000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:04:57: [208 MB]  3000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:04:58: [213 MB]  4000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:04:59: [223 MB]  5000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:00: [229 MB]  6000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:00: [239 MB]  7000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:01: [253 MB]  8000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:02: [258 MB]  9000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:03: [266 MB]  10000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:04: [274 MB]  11000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:05: [281 MB]  12000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:06: [289 MB]  13000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:07: [297 MB]  14000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:08: [312 MB]  15000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:09: [319 MB]  16000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:10: [326 MB]  17000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:11: [332 MB]  18000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:12: [342 MB]  19000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:13: [347 MB]  20000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:14: [357 MB]  21000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:15: [369 MB]  22000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:15: [372 MB]  23000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:16: [379 MB]  24000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:17: [387 MB]  25000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:18: [395 MB]  26000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:19: [403 MB]  27000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:20: [410 MB]  28000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:21: [418 MB]  29000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:22: [428 MB]  30000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:23: [435 MB]  31000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:24: [441 MB]  32000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:25: [450 MB]  33000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:26: [457 MB]  34000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:27: [465 MB]  35000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:28: [472 MB]  36000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:29: [481 MB]  37000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:30: [487 MB]  38000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:31: [501 MB]  39000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:32: [506 MB]  40000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:33: [516 MB]  41000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:33: [521 MB]  42000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:34: [531 MB]  43000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:35: [536 MB]  44000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:36: [546 MB]  45000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:37: [552 MB]  46000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:38: [564 MB]  47000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:39: [570 MB]  48000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:40: [577 MB]  49000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:41: [585 MB]  50000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:42: [593 MB]  51000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:43: [605 MB]  52000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:44: [610 MB]  53000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:45: [616 MB]  54000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:46: [624 MB]  55000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:47: [632 MB]  56000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:48: [640 MB]  57000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:49: [647 MB]  58000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:50: [664 MB]  59000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:51: [666 MB]  60000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:52: [674 MB]  61000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:53: [681 MB]  62000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:54: [689 MB]  63000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:55: [707 MB]  64000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:55: [713 MB]  65000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:56: [722 MB]  66000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:57: [728 MB]  67000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:58: [737 MB]  68000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:05:59: [743 MB]  69000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:06:00: [753 MB]  70000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:06:59: [753 MB] #  Read 70640325 fragments. 
+INFO  @ 26 Oct 2025 23:06:59: [753 MB] #2 Use EM algorithm to estimate means and stddevs of fragment lengths 
+INFO  @ 26 Oct 2025 23:06:59: [753 MB] #  for mono-, di-, and tri-nucleosomal signals... 
+INFO  @ 26 Oct 2025 23:06:59: [753 MB] # A random seed 10151 has been used in the sampling function 
+INFO  @ 26 Oct 2025 23:07:09: [796 MB] # Downsampled 816770 fragments will be used for EM training... 
+INFO  @ 26 Oct 2025 23:10:55: [796 MB] # Reached convergence after 19 iterations 
+INFO  @ 26 Oct 2025 23:10:55: [796 MB] #  The means and stddevs after EM: 
+INFO  @ 26 Oct 2025 23:10:55: [796 MB] #                         short       mono         di        tri 
+INFO  @ 26 Oct 2025 23:10:55: [796 MB] #             means:         50      144.7        339        600 
+INFO  @ 26 Oct 2025 23:10:55: [796 MB] #           stddevs:         20       38.3       72.3         20 
+INFO  @ 26 Oct 2025 23:10:55: [796 MB] #  Compute the weights for each fragment length for each of the four signal types 
+INFO  @ 26 Oct 2025 23:11:09: [825 MB] #  Generate short, mono-, di-, and tri-nucleosomal signals 
+INFO  @ 26 Oct 2025 23:45:07: [927 MB] #  Pile up all fragments 
+INFO  @ 26 Oct 2025 23:46:08: [1527 MB] #  Convert pileup to fold-change over average signal 
+INFO  @ 26 Oct 2025 23:46:21: [1527 MB] #3 Look for training set from 70640325 fragments 
+INFO  @ 26 Oct 2025 23:46:21: [1527 MB] #  Call peak above within fold-change range of 15 and 75. 
+INFO  @ 26 Oct 2025 23:46:21: [1527 MB] #   The minimum length of the region is set as the average template/fragment length in the dataset: 66 
+INFO  @ 26 Oct 2025 23:46:21: [1527 MB] #   The maximum gap to merge nearby significant regions is set as the flanking size to extend training regions: 1000 
+INFO  @ 26 Oct 2025 23:46:26: [1527 MB] #  Total training regions called after applying the lower cutoff 15: 4568 
+INFO  @ 26 Oct 2025 23:46:26: [1527 MB] #  Total training regions after filtering with upper cutoff 75: 4450 
+INFO  @ 26 Oct 2025 23:46:26: [1527 MB] #  **IMPORTANT** 
+INFO  @ 26 Oct 2025 23:46:26: [1527 MB] #  Please review the cutoff analysis result in /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/C1/C1_cutoff_analysis.tsv to verify 
+INFO  @ 26 Oct 2025 23:46:26: [1527 MB] #   if the choices of lower, upper and prescanning cutoff are appropriate. 
+INFO  @ 26 Oct 2025 23:46:26: [1527 MB] #   Please read the message in the section 'Choices of cutoff values' by running 
+INFO  @ 26 Oct 2025 23:46:26: [1527 MB] #   `macs3 hmmratac -h` for detail. 
+INFO  @ 26 Oct 2025 23:46:26: [1527 MB] #  **** 
+INFO  @ 26 Oct 2025 23:47:53: [1890 MB] #  We randomly pick 1000 regions for training 
+INFO  @ 26 Oct 2025 23:47:53: [1890 MB] #  We expand the training regions with 1000 basepairs and merge overlap 
+INFO  @ 26 Oct 2025 23:47:53: [1890 MB] #4 Train Hidden Markov Model with Multivariate Gaussian Emission 
+INFO  @ 26 Oct 2025 23:47:53: [1890 MB] #  Extract signals in training regions with bin size of 10 
+INFO  @ 26 Oct 2025 23:47:53: [1890 MB] #  Use Baum-Welch algorithm to train the HMM 
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1047: RuntimeWarning: invalid value encountered in scalar divide
+  shape=mean_X**2 / var_X,
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1048: RuntimeWarning: invalid value encountered in scalar divide
+  scale=var_X / mean_X,  # numpy uses theta = 1 / beta
+INFO  @ 26 Oct 2025 23:47:58: [1890 MB] #   HMM converged: True 
+Traceback (most recent call last):
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 1017, in <module>
+    main()
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 103, in main
+    run(args)
+  File "/home/bouille251/venv_MACS3/lib/python3.10/site-packages/MACS3/Commands/hmmratac_cmd.py", line 356, in run
+    i_open_region = np.where(means_sum == max(means_sum))[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "prescan cutoff = 8"
+[1] "lower cutoff = 15"
+[1] "upper cutoff = 75"
+null device 
+          1 
+
+
+
+
+------------ done ------------
+
+
+
+
+
+
+
+
+------------ C2 ------------
+
+
+
+
+INFO  @ 26 Oct 2025 23:48:00: [119 MB] 
+# Command line: hmmratac -i /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/C2/C2.bedpe⁠ -n C2 -f BEDPE --binsize 10 -c 8 -l 15 -u 75 --min-frag-p 0.05 --hmm-type poisson --decoding-steps 6000 --minlen 75 --save-states --outdir /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/C2
+# Random seed selected as: 10151
+# Use --hmm-type to select a Gaussian ('gaussian') or Poisson ('poisson') model for the hidden markov model in HMMRATAC. Default: 'gaussian'. 
+ 
+INFO  @ 26 Oct 2025 23:48:00: [119 MB] #1 Read fragments from BEDPE file... 
+INFO  @ 26 Oct 2025 23:48:01: [201 MB]  1000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:02: [203 MB]  2000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:03: [210 MB]  3000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:04: [215 MB]  4000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:05: [225 MB]  5000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:06: [239 MB]  6000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:07: [245 MB]  7000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:08: [249 MB]  8000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:08: [254 MB]  9000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:09: [264 MB]  10000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:10: [270 MB]  11000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:11: [280 MB]  12000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:12: [285 MB]  13000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:13: [295 MB]  14000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:14: [302 MB]  15000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:15: [315 MB]  16000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:16: [321 MB]  17000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:17: [330 MB]  18000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:18: [336 MB]  19000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:19: [346 MB]  20000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:20: [351 MB]  21000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:21: [361 MB]  22000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:22: [371 MB]  23000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:23: [375 MB]  24000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:24: [384 MB]  25000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:25: [390 MB]  26000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:25: [400 MB]  27000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:26: [405 MB]  28000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:27: [415 MB]  29000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:28: [425 MB]  30000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:29: [431 MB]  31000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:30: [440 MB]  32000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:31: [446 MB]  33000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:32: [455 MB]  34000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:33: [461 MB]  35000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:34: [470 MB]  36000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:35: [478 MB]  37000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:36: [486 MB]  38000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:37: [492 MB]  39000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:38: [501 MB]  40000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:39: [507 MB]  41000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:39: [516 MB]  42000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:40: [524 MB]  43000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:41: [535 MB]  44000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:42: [540 MB]  45000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:43: [548 MB]  46000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:44: [556 MB]  47000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:45: [563 MB]  48000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:46: [571 MB]  49000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:47: [590 MB]  50000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:48: [597 MB]  51000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:49: [605 MB]  52000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:50: [612 MB]  53000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:51: [620 MB]  54000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:52: [628 MB]  55000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:53: [635 MB]  56000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:53: [643 MB]  57000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:54: [651 MB]  58000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:55: [658 MB]  59000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:56: [666 MB]  60000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:57: [674 MB]  61000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:58: [685 MB]  62000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:48:59: [690 MB]  63000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:49:00: [698 MB]  64000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:49:01: [705 MB]  65000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:49:02: [713 MB]  66000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:49:03: [718 MB]  67000000 fragments parsed 
+INFO  @ 26 Oct 2025 23:50:00: [718 MB] #  Read 67141774 fragments. 
+INFO  @ 26 Oct 2025 23:50:00: [718 MB] #2 Use EM algorithm to estimate means and stddevs of fragment lengths 
+INFO  @ 26 Oct 2025 23:50:00: [718 MB] #  for mono-, di-, and tri-nucleosomal signals... 
+INFO  @ 26 Oct 2025 23:50:00: [718 MB] # A random seed 10151 has been used in the sampling function 
+INFO  @ 26 Oct 2025 23:50:09: [777 MB] # Downsampled 1167947 fragments will be used for EM training... 
+INFO  @ 26 Oct 2025 23:54:55: [777 MB] # Reached convergence after 17 iterations 
+INFO  @ 26 Oct 2025 23:54:55: [777 MB] #  The means and stddevs after EM: 
+INFO  @ 26 Oct 2025 23:54:55: [777 MB] #                         short       mono         di        tri 
+INFO  @ 26 Oct 2025 23:54:55: [777 MB] #             means:         50      154.6      354.8        600 
+INFO  @ 26 Oct 2025 23:54:55: [777 MB] #           stddevs:         20       43.8       65.3         20 
+INFO  @ 26 Oct 2025 23:54:55: [777 MB] #  Compute the weights for each fragment length for each of the four signal types 
+INFO  @ 26 Oct 2025 23:55:09: [777 MB] #  Generate short, mono-, di-, and tri-nucleosomal signals 
+INFO  @ 27 Oct 2025 00:27:53: [906 MB] #  Pile up all fragments 
+INFO  @ 27 Oct 2025 00:28:53: [1458 MB] #  Convert pileup to fold-change over average signal 
+INFO  @ 27 Oct 2025 00:29:05: [1458 MB] #3 Look for training set from 67141774 fragments 
+INFO  @ 27 Oct 2025 00:29:05: [1458 MB] #  Call peak above within fold-change range of 15 and 75. 
+INFO  @ 27 Oct 2025 00:29:05: [1458 MB] #   The minimum length of the region is set as the average template/fragment length in the dataset: 76 
+INFO  @ 27 Oct 2025 00:29:05: [1458 MB] #   The maximum gap to merge nearby significant regions is set as the flanking size to extend training regions: 1000 
+INFO  @ 27 Oct 2025 00:29:10: [1458 MB] #  Total training regions called after applying the lower cutoff 15: 4250 
+INFO  @ 27 Oct 2025 00:29:10: [1458 MB] #  Total training regions after filtering with upper cutoff 75: 4157 
+INFO  @ 27 Oct 2025 00:29:10: [1458 MB] #  **IMPORTANT** 
+INFO  @ 27 Oct 2025 00:29:10: [1458 MB] #  Please review the cutoff analysis result in /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/C2/C2_cutoff_analysis.tsv to verify 
+INFO  @ 27 Oct 2025 00:29:10: [1458 MB] #   if the choices of lower, upper and prescanning cutoff are appropriate. 
+INFO  @ 27 Oct 2025 00:29:10: [1458 MB] #   Please read the message in the section 'Choices of cutoff values' by running 
+INFO  @ 27 Oct 2025 00:29:10: [1458 MB] #   `macs3 hmmratac -h` for detail. 
+INFO  @ 27 Oct 2025 00:29:10: [1458 MB] #  **** 
+INFO  @ 27 Oct 2025 00:30:30: [1815 MB] #  We randomly pick 1000 regions for training 
+INFO  @ 27 Oct 2025 00:30:30: [1815 MB] #  We expand the training regions with 1000 basepairs and merge overlap 
+INFO  @ 27 Oct 2025 00:30:30: [1815 MB] #4 Train Hidden Markov Model with Multivariate Gaussian Emission 
+INFO  @ 27 Oct 2025 00:30:30: [1815 MB] #  Extract signals in training regions with bin size of 10 
+INFO  @ 27 Oct 2025 00:30:30: [1815 MB] #  Use Baum-Welch algorithm to train the HMM 
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1047: RuntimeWarning: invalid value encountered in scalar divide
+  shape=mean_X**2 / var_X,
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1048: RuntimeWarning: invalid value encountered in scalar divide
+  scale=var_X / mean_X,  # numpy uses theta = 1 / beta
+INFO  @ 27 Oct 2025 00:30:35: [1815 MB] #   HMM converged: True 
+Traceback (most recent call last):
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 1017, in <module>
+    main()
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 103, in main
+    run(args)
+  File "/home/bouille251/venv_MACS3/lib/python3.10/site-packages/MACS3/Commands/hmmratac_cmd.py", line 356, in run
+    i_open_region = np.where(means_sum == max(means_sum))[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "prescan cutoff = 8"
+[1] "lower cutoff = 15"
+[1] "upper cutoff = 75"
+null device 
+          1 
+
+
+
+
+------------ done ------------
+
+
+
+
+
+
+
+
+------------ C3 ------------
+
+
+
+
+INFO  @ 27 Oct 2025 00:30:37: [119 MB] 
+# Command line: hmmratac -i /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/C3/C3.bedpe⁠ -n C3 -f BEDPE --binsize 10 -c 8 -l 15 -u 75 --min-frag-p 0.05 --hmm-type poisson --decoding-steps 6000 --minlen 75 --save-states --outdir /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/C3
+# Random seed selected as: 10151
+# Use --hmm-type to select a Gaussian ('gaussian') or Poisson ('poisson') model for the hidden markov model in HMMRATAC. Default: 'gaussian'. 
+ 
+INFO  @ 27 Oct 2025 00:30:37: [119 MB] #1 Read fragments from BEDPE file... 
+INFO  @ 27 Oct 2025 00:30:38: [200 MB]  1000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:39: [203 MB]  2000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:40: [209 MB]  3000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:41: [215 MB]  4000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:42: [231 MB]  5000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:43: [239 MB]  6000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:44: [240 MB]  7000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:45: [250 MB]  8000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:46: [260 MB]  9000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:47: [265 MB]  10000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:48: [271 MB]  11000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:48: [281 MB]  12000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:49: [293 MB]  13000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:50: [301 MB]  14000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:51: [306 MB]  15000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:52: [313 MB]  16000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:53: [322 MB]  17000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:54: [329 MB]  18000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:55: [341 MB]  19000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:56: [348 MB]  20000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:57: [356 MB]  21000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:58: [364 MB]  22000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:30:59: [371 MB]  23000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:00: [379 MB]  24000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:01: [387 MB]  25000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:02: [399 MB]  26000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:03: [405 MB]  27000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:04: [412 MB]  28000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:05: [420 MB]  29000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:05: [427 MB]  30000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:06: [436 MB]  31000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:07: [443 MB]  32000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:08: [451 MB]  33000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:09: [459 MB]  34000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:10: [466 MB]  35000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:11: [475 MB]  36000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:12: [483 MB]  37000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:13: [490 MB]  38000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:14: [498 MB]  39000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:15: [503 MB]  40000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:16: [517 MB]  41000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:17: [522 MB]  42000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:18: [529 MB]  43000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:19: [537 MB]  44000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:20: [545 MB]  45000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:21: [551 MB]  46000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:22: [559 MB]  47000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:23: [566 MB]  48000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:24: [574 MB]  49000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:31:25: [581 MB]  50000000 fragments parsed 
+INFO  @ 27 Oct 2025 00:32:06: [581 MB] #  Read 50222043 fragments. 
+INFO  @ 27 Oct 2025 00:32:06: [581 MB] #2 Use EM algorithm to estimate means and stddevs of fragment lengths 
+INFO  @ 27 Oct 2025 00:32:06: [581 MB] #  for mono-, di-, and tri-nucleosomal signals... 
+INFO  @ 27 Oct 2025 00:32:06: [581 MB] # A random seed 10151 has been used in the sampling function 
+INFO  @ 27 Oct 2025 00:32:12: [613 MB] # Downsampled 321769 fragments will be used for EM training... 
+INFO  @ 27 Oct 2025 00:33:08: [613 MB] # Reached convergence after 12 iterations 
+INFO  @ 27 Oct 2025 00:33:08: [613 MB] #  The means and stddevs after EM: 
+INFO  @ 27 Oct 2025 00:33:08: [613 MB] #                         short       mono         di        tri 
+INFO  @ 27 Oct 2025 00:33:08: [613 MB] #             means:         50      153.8      370.3        600 
+INFO  @ 27 Oct 2025 00:33:08: [613 MB] #           stddevs:         20         43       64.7         20 
+INFO  @ 27 Oct 2025 00:33:08: [613 MB] #  Compute the weights for each fragment length for each of the four signal types 
+INFO  @ 27 Oct 2025 00:33:18: [622 MB] #  Generate short, mono-, di-, and tri-nucleosomal signals 
+INFO  @ 27 Oct 2025 00:58:12: [710 MB] #  Pile up all fragments 
+INFO  @ 27 Oct 2025 00:58:59: [1163 MB] #  Convert pileup to fold-change over average signal 
+INFO  @ 27 Oct 2025 00:59:09: [1163 MB] #3 Look for training set from 50222043 fragments 
+INFO  @ 27 Oct 2025 00:59:09: [1163 MB] #  Call peak above within fold-change range of 15 and 75. 
+INFO  @ 27 Oct 2025 00:59:09: [1163 MB] #   The minimum length of the region is set as the average template/fragment length in the dataset: 58 
+INFO  @ 27 Oct 2025 00:59:09: [1163 MB] #   The maximum gap to merge nearby significant regions is set as the flanking size to extend training regions: 1000 
+INFO  @ 27 Oct 2025 00:59:13: [1163 MB] #  Total training regions called after applying the lower cutoff 15: 4167 
+INFO  @ 27 Oct 2025 00:59:13: [1163 MB] #  Total training regions after filtering with upper cutoff 75: 4052 
+INFO  @ 27 Oct 2025 00:59:13: [1163 MB] #  **IMPORTANT** 
+INFO  @ 27 Oct 2025 00:59:13: [1163 MB] #  Please review the cutoff analysis result in /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/C3/C3_cutoff_analysis.tsv to verify 
+INFO  @ 27 Oct 2025 00:59:13: [1163 MB] #   if the choices of lower, upper and prescanning cutoff are appropriate. 
+INFO  @ 27 Oct 2025 00:59:13: [1163 MB] #   Please read the message in the section 'Choices of cutoff values' by running 
+INFO  @ 27 Oct 2025 00:59:13: [1163 MB] #   `macs3 hmmratac -h` for detail. 
+INFO  @ 27 Oct 2025 00:59:13: [1163 MB] #  **** 
+INFO  @ 27 Oct 2025 01:00:18: [1466 MB] #  We randomly pick 1000 regions for training 
+INFO  @ 27 Oct 2025 01:00:18: [1466 MB] #  We expand the training regions with 1000 basepairs and merge overlap 
+INFO  @ 27 Oct 2025 01:00:18: [1466 MB] #4 Train Hidden Markov Model with Multivariate Gaussian Emission 
+INFO  @ 27 Oct 2025 01:00:18: [1466 MB] #  Extract signals in training regions with bin size of 10 
+INFO  @ 27 Oct 2025 01:00:19: [1466 MB] #  Use Baum-Welch algorithm to train the HMM 
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1047: RuntimeWarning: invalid value encountered in scalar divide
+  shape=mean_X**2 / var_X,
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1048: RuntimeWarning: invalid value encountered in scalar divide
+  scale=var_X / mean_X,  # numpy uses theta = 1 / beta
+INFO  @ 27 Oct 2025 01:00:23: [1466 MB] #   HMM converged: True 
+Traceback (most recent call last):
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 1017, in <module>
+    main()
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 103, in main
+    run(args)
+  File "/home/bouille251/venv_MACS3/lib/python3.10/site-packages/MACS3/Commands/hmmratac_cmd.py", line 356, in run
+    i_open_region = np.where(means_sum == max(means_sum))[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "prescan cutoff = 8"
+[1] "lower cutoff = 15"
+[1] "upper cutoff = 75"
+null device 
+          1 
+
+
+
+
+------------ done ------------
+
+
+
+
+
+
+
+
+------------ dg1 ------------
+
+
+
+
+INFO  @ 27 Oct 2025 01:00:26: [119 MB] 
+# Command line: hmmratac -i /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/dg1/dg1.bedpe⁠ -n dg1 -f BEDPE --binsize 10 -c 8 -l 15 -u 75 --min-frag-p 0.05 --hmm-type poisson --decoding-steps 6000 --minlen 75 --save-states --outdir /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/dg1
+# Random seed selected as: 10151
+# Use --hmm-type to select a Gaussian ('gaussian') or Poisson ('poisson') model for the hidden markov model in HMMRATAC. Default: 'gaussian'. 
+ 
+INFO  @ 27 Oct 2025 01:00:26: [119 MB] #1 Read fragments from BEDPE file... 
+INFO  @ 27 Oct 2025 01:00:27: [198 MB]  1000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:00:28: [208 MB]  2000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:00:29: [213 MB]  3000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:00:30: [222 MB]  4000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:00:31: [235 MB]  5000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:00:31: [243 MB]  6000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:00:37: [255 MB] #  Read 6976586 fragments. 
+INFO  @ 27 Oct 2025 01:00:37: [255 MB] #2 Use EM algorithm to estimate means and stddevs of fragment lengths 
+INFO  @ 27 Oct 2025 01:00:37: [255 MB] #  for mono-, di-, and tri-nucleosomal signals... 
+INFO  @ 27 Oct 2025 01:00:37: [255 MB] # A random seed 10151 has been used in the sampling function 
+INFO  @ 27 Oct 2025 01:00:38: [255 MB] # Downsampled 98083 fragments will be used for EM training... 
+INFO  @ 27 Oct 2025 01:00:53: [255 MB] # Reached convergence after 11 iterations 
+INFO  @ 27 Oct 2025 01:00:53: [255 MB] #  The means and stddevs after EM: 
+INFO  @ 27 Oct 2025 01:00:53: [255 MB] #                         short       mono         di        tri 
+INFO  @ 27 Oct 2025 01:00:53: [255 MB] #             means:         50      165.4      393.3        600 
+INFO  @ 27 Oct 2025 01:00:53: [255 MB] #           stddevs:         20       54.3       53.3         20 
+INFO  @ 27 Oct 2025 01:00:53: [255 MB] #  Compute the weights for each fragment length for each of the four signal types 
+INFO  @ 27 Oct 2025 01:00:55: [255 MB] #  Generate short, mono-, di-, and tri-nucleosomal signals 
+INFO  @ 27 Oct 2025 01:04:14: [263 MB] #  Pile up all fragments 
+INFO  @ 27 Oct 2025 01:04:22: [315 MB] #  Convert pileup to fold-change over average signal 
+INFO  @ 27 Oct 2025 01:04:23: [315 MB] #3 Look for training set from 6976586 fragments 
+INFO  @ 27 Oct 2025 01:04:23: [315 MB] #  Call peak above within fold-change range of 15 and 75. 
+INFO  @ 27 Oct 2025 01:04:23: [315 MB] #   The minimum length of the region is set as the average template/fragment length in the dataset: 77 
+INFO  @ 27 Oct 2025 01:04:23: [315 MB] #   The maximum gap to merge nearby significant regions is set as the flanking size to extend training regions: 1000 
+INFO  @ 27 Oct 2025 01:04:24: [319 MB] #  Total training regions called after applying the lower cutoff 15: 11068 
+INFO  @ 27 Oct 2025 01:04:24: [319 MB] #  Total training regions after filtering with upper cutoff 75: 10697 
+INFO  @ 27 Oct 2025 01:04:24: [319 MB] #  **IMPORTANT** 
+INFO  @ 27 Oct 2025 01:04:24: [319 MB] #  Please review the cutoff analysis result in /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/dg1/dg1_cutoff_analysis.tsv to verify 
+INFO  @ 27 Oct 2025 01:04:24: [319 MB] #   if the choices of lower, upper and prescanning cutoff are appropriate. 
+INFO  @ 27 Oct 2025 01:04:24: [319 MB] #   Please read the message in the section 'Choices of cutoff values' by running 
+INFO  @ 27 Oct 2025 01:04:24: [319 MB] #   `macs3 hmmratac -h` for detail. 
+INFO  @ 27 Oct 2025 01:04:24: [319 MB] #  **** 
+INFO  @ 27 Oct 2025 01:04:47: [367 MB] #  We randomly pick 1000 regions for training 
+INFO  @ 27 Oct 2025 01:04:47: [367 MB] #  We expand the training regions with 1000 basepairs and merge overlap 
+INFO  @ 27 Oct 2025 01:04:47: [367 MB] #4 Train Hidden Markov Model with Multivariate Gaussian Emission 
+INFO  @ 27 Oct 2025 01:04:47: [367 MB] #  Extract signals in training regions with bin size of 10 
+INFO  @ 27 Oct 2025 01:04:48: [455 MB] #  Use Baum-Welch algorithm to train the HMM 
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1047: RuntimeWarning: invalid value encountered in scalar divide
+  shape=mean_X**2 / var_X,
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1048: RuntimeWarning: invalid value encountered in scalar divide
+  scale=var_X / mean_X,  # numpy uses theta = 1 / beta
+INFO  @ 27 Oct 2025 01:04:53: [455 MB] #   HMM converged: True 
+Traceback (most recent call last):
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 1017, in <module>
+    main()
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 103, in main
+    run(args)
+  File "/home/bouille251/venv_MACS3/lib/python3.10/site-packages/MACS3/Commands/hmmratac_cmd.py", line 356, in run
+    i_open_region = np.where(means_sum == max(means_sum))[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "prescan cutoff = 8"
+[1] "lower cutoff = 15"
+[1] "upper cutoff = 75"
+null device 
+          1 
+
+
+
+
+------------ done ------------
+
+
+
+
+
+
+
+
+------------ dg2 ------------
+
+
+
+
+INFO  @ 27 Oct 2025 01:04:55: [119 MB] 
+# Command line: hmmratac -i /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/dg2/dg2.bedpe⁠ -n dg2 -f BEDPE --binsize 10 -c 8 -l 15 -u 75 --min-frag-p 0.05 --hmm-type poisson --decoding-steps 6000 --minlen 75 --save-states --outdir /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/dg2
+# Random seed selected as: 10151
+# Use --hmm-type to select a Gaussian ('gaussian') or Poisson ('poisson') model for the hidden markov model in HMMRATAC. Default: 'gaussian'. 
+ 
+INFO  @ 27 Oct 2025 01:04:55: [119 MB] #1 Read fragments from BEDPE file... 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] #  Read 27468 fragments. 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] #2 Use EM algorithm to estimate means and stddevs of fragment lengths 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] #  for mono-, di-, and tri-nucleosomal signals... 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] # A random seed 10151 has been used in the sampling function 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] # Downsampled 404 fragments will be used for EM training... 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] # Reached convergence after 20 iterations 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] # Reached maximum number (20) of iterations 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] #  The means and stddevs after EM: 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] #                         short       mono         di        tri 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] #             means:         50      129.5      282.4        600 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] #           stddevs:         20       24.7       78.2         20 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] #  Compute the weights for each fragment length for each of the four signal types 
+INFO  @ 27 Oct 2025 01:04:55: [125 MB] #  Generate short, mono-, di-, and tri-nucleosomal signals 
+INFO  @ 27 Oct 2025 01:04:56: [125 MB] #  Pile up all fragments 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #  Convert pileup to fold-change over average signal 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #3 Look for training set from 27468 fragments 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #  Call peak above within fold-change range of 15 and 75. 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #   The minimum length of the region is set as the average template/fragment length in the dataset: 73 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #   The maximum gap to merge nearby significant regions is set as the flanking size to extend training regions: 1000 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #  Total training regions called after applying the lower cutoff 15: 8446 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #  Total training regions after filtering with upper cutoff 75: 0 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #  **IMPORTANT** 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #  Please review the cutoff analysis result in /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/dg2/dg2_cutoff_analysis.tsv to verify 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #   if the choices of lower, upper and prescanning cutoff are appropriate. 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #   Please read the message in the section 'Choices of cutoff values' by running 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #   `macs3 hmmratac -h` for detail. 
+INFO  @ 27 Oct 2025 01:04:56: [126 MB] #  **** 
+CRITICAL @ 27 Oct 2025 01:04:57: [126 MB] # No training regions found. Please adjust the lower or upper cutoff. 
+Traceback (most recent call last):
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 1017, in <module>
+    main()
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 103, in main
+    run(args)
+  File "/home/bouille251/venv_MACS3/lib/python3.10/site-packages/MACS3/Commands/hmmratac_cmd.py", line 296, in run
+    raise Exception("Not enough training regions!")
+Exception: Not enough training regions!
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+null device 
+          1 
+
+
+
+
+------------ done ------------
+
+
+
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package to force all conflicts to become errors
+
+Attachement du package : ‘flextable’
+
+L'objet suivant est masqué depuis ‘package:purrr’:
+
+    compose
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "5a1_accessible_regions.narrowPeak"
+[1] "5a2_accessible_regions.narrowPeak"
+[1] "5a3_accessible_regions.narrowPeak"
+[1] "C1_accessible_regions.narrowPeak"
+[1] "C2_accessible_regions.narrowPeak"
+[1] "C3_accessible_regions.narrowPeak"
+[1] "dg1_accessible_regions.narrowPeak"
+`summarise()` has grouped output by 'ech'. You can override using the `.groups`
+argument.
+null device 
+          1 
+
+
+
+
+------------ 5aza - pool ------------
+
+
+
+
+INFO  @ 27 Oct 2025 01:05:17: [120 MB] 
+# Command line: hmmratac -i 5a1.bedpe⁠ 5a2.bedpe⁠ 5a3.bedpe⁠ -f BEDPE -n 5aza --binsize 10 -c 8 -l 15 -u 75 --min-frag-p 0.05 --hmm-type poisson --decoding-steps 6000 --minlen 75 --save-states --outdir /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5aza_pool
+# Random seed selected as: 10151
+# Use --hmm-type to select a Gaussian ('gaussian') or Poisson ('poisson') model for the hidden markov model in HMMRATAC. Default: 'gaussian'. 
+ 
+INFO  @ 27 Oct 2025 01:05:17: [120 MB] #1 Read fragments from BEDPE file... 
+INFO  @ 27 Oct 2025 01:05:17: [201 MB]  1000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:18: [205 MB]  2000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:19: [208 MB]  3000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:20: [213 MB]  4000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:21: [223 MB]  5000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:22: [229 MB]  6000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:23: [239 MB]  7000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:24: [250 MB]  8000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:25: [261 MB]  9000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:26: [264 MB]  10000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:27: [274 MB]  11000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:28: [278 MB]  12000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:29: [289 MB]  13000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:30: [295 MB]  14000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:31: [305 MB]  15000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:32: [310 MB]  16000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:33: [320 MB]  17000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:34: [330 MB]  18000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:34: [341 MB]  19000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:35: [345 MB]  20000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:36: [352 MB]  21000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:37: [361 MB]  22000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:38: [366 MB]  23000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:39: [378 MB]  24000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:40: [384 MB]  25000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:41: [393 MB]  26000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:42: [399 MB]  27000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:43: [408 MB]  28000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:44: [415 MB]  29000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:45: [423 MB]  30000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:46: [431 MB]  31000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:46: [439 MB]  32000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:47: [445 MB]  33000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:48: [455 MB]  34000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:49: [460 MB]  35000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:50: [470 MB]  36000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:51: [484 MB]  37000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:52: [491 MB]  38000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:53: [496 MB]  39000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:54: [506 MB]  40000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:55: [512 MB]  41000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:56: [521 MB]  42000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:57: [531 MB]  43000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:58: [539 MB]  44000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:05:59: [547 MB]  45000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:00: [555 MB]  46000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:01: [562 MB]  47000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:02: [570 MB]  48000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:03: [577 MB]  49000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:03: [589 MB]  50000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:04: [594 MB]  51000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:05: [601 MB]  52000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:06: [609 MB]  53000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:07: [616 MB]  54000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:08: [624 MB]  55000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:09: [632 MB]  56000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:10: [639 MB]  57000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:11: [648 MB]  58000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:12: [655 MB]  59000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:13: [663 MB]  60000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:14: [670 MB]  61000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:15: [678 MB]  62000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:16: [686 MB]  63000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:17: [694 MB]  64000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:18: [705 MB]  65000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:19: [710 MB]  66000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:20: [718 MB]  67000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:21: [725 MB]  68000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:22: [733 MB]  69000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:23: [741 MB]  70000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:23: [748 MB]  71000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:25: [758 MB]  1000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:26: [765 MB]  2000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:27: [770 MB]  3000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:28: [780 MB]  4000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:29: [785 MB]  5000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:30: [795 MB]  6000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:31: [801 MB]  7000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:32: [813 MB]  8000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:33: [816 MB]  9000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:34: [826 MB]  10000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:35: [831 MB]  11000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:36: [842 MB]  12000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:37: [848 MB]  13000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:38: [862 MB]  14000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:39: [867 MB]  15000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:40: [877 MB]  16000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:40: [882 MB]  17000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:41: [892 MB]  18000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:42: [898 MB]  19000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:43: [907 MB]  20000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:44: [913 MB]  21000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:45: [923 MB]  22000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:46: [929 MB]  23000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:47: [939 MB]  24000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:48: [944 MB]  25000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:49: [954 MB]  26000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:50: [961 MB]  27000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:51: [967 MB]  28000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:52: [976 MB]  29000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:53: [983 MB]  30000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:54: [992 MB]  31000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:55: [998 MB]  32000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:56: [1007 MB]  33000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:57: [1013 MB]  34000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:58: [1022 MB]  35000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:06:59: [1028 MB]  36000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:00: [1037 MB]  37000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:01: [1044 MB]  38000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:02: [1052 MB]  39000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:03: [1059 MB]  40000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:04: [1068 MB]  41000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:04: [1073 MB]  42000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:05: [1083 MB]  43000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:06: [1089 MB]  44000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:07: [1098 MB]  45000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:08: [1104 MB]  46000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:09: [1114 MB]  47000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:10: [1119 MB]  48000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:11: [1129 MB]  49000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:12: [1134 MB]  50000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:13: [1151 MB]  51000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:14: [1155 MB]  52000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:15: [1160 MB]  53000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:16: [1169 MB]  54000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:17: [1175 MB]  55000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:18: [1185 MB]  56000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:19: [1191 MB]  57000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:20: [1200 MB]  58000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:21: [1206 MB]  59000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:22: [1215 MB]  60000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:23: [1222 MB]  61000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:23: [1230 MB]  62000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:24: [1242 MB]  63000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:25: [1246 MB]  64000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:26: [1252 MB]  65000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:27: [1262 MB]  66000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:28: [1267 MB]  67000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:29: [1277 MB]  68000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:30: [1282 MB]  69000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:31: [1289 MB]  70000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:32: [1292 MB]  1000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:33: [1299 MB]  2000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:34: [1304 MB]  3000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:35: [1314 MB]  4000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:36: [1320 MB]  5000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:37: [1331 MB]  6000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:38: [1335 MB]  7000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:39: [1345 MB]  8000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:40: [1354 MB]  9000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:41: [1361 MB]  10000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:42: [1366 MB]  11000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:42: [1377 MB]  12000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:43: [1384 MB]  13000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:44: [1393 MB]  14000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:45: [1400 MB]  15000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:46: [1410 MB]  16000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:47: [1416 MB]  17000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:48: [1425 MB]  18000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:49: [1432 MB]  19000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:50: [1441 MB]  20000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:51: [1447 MB]  21000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:52: [1458 MB]  22000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:53: [1464 MB]  23000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:54: [1473 MB]  24000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:55: [1486 MB]  25000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:56: [1494 MB]  26000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:56: [1502 MB]  27000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:57: [1507 MB]  28000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:58: [1518 MB]  29000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:07:59: [1524 MB]  30000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:08:00: [1533 MB]  31000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:08:01: [1539 MB]  32000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:08:02: [1548 MB]  33000000 fragments parsed 
+INFO  @ 27 Oct 2025 01:11:42: [1553 MB] #  Read 175657105 fragments. 
+INFO  @ 27 Oct 2025 01:11:42: [1553 MB] #2 Use EM algorithm to estimate means and stddevs of fragment lengths 
+INFO  @ 27 Oct 2025 01:11:42: [1553 MB] #  for mono-, di-, and tri-nucleosomal signals... 
+INFO  @ 27 Oct 2025 01:11:42: [1553 MB] # A random seed 10151 has been used in the sampling function 
+INFO  @ 27 Oct 2025 01:12:09: [1781 MB] # Downsampled 2121276 fragments will be used for EM training... 
+INFO  @ 27 Oct 2025 01:19:44: [1781 MB] # Reached convergence after 15 iterations 
+INFO  @ 27 Oct 2025 01:19:44: [1781 MB] #  The means and stddevs after EM: 
+INFO  @ 27 Oct 2025 01:19:44: [1781 MB] #                         short       mono         di        tri 
+INFO  @ 27 Oct 2025 01:19:44: [1781 MB] #             means:         50      147.9      347.9        600 
+INFO  @ 27 Oct 2025 01:19:44: [1781 MB] #           stddevs:         20       38.7       71.4         20 
+INFO  @ 27 Oct 2025 01:19:44: [1781 MB] #  Compute the weights for each fragment length for each of the four signal types 
+INFO  @ 27 Oct 2025 01:20:19: [1826 MB] #  Generate short, mono-, di-, and tri-nucleosomal signals 
+INFO  @ 27 Oct 2025 02:44:07: [2054 MB] #  Pile up all fragments 
+INFO  @ 27 Oct 2025 02:45:56: [3051 MB] #  Convert pileup to fold-change over average signal 
+INFO  @ 27 Oct 2025 02:46:20: [3051 MB] #3 Look for training set from 175657105 fragments 
+INFO  @ 27 Oct 2025 02:46:20: [3051 MB] #  Call peak above within fold-change range of 15 and 75. 
+INFO  @ 27 Oct 2025 02:46:20: [3051 MB] #   The minimum length of the region is set as the average template/fragment length in the dataset: 67 
+INFO  @ 27 Oct 2025 02:46:20: [3051 MB] #   The maximum gap to merge nearby significant regions is set as the flanking size to extend training regions: 1000 
+INFO  @ 27 Oct 2025 02:46:31: [3051 MB] #  Total training regions called after applying the lower cutoff 15: 9810 
+INFO  @ 27 Oct 2025 02:46:31: [3051 MB] #  Total training regions after filtering with upper cutoff 75: 9557 
+INFO  @ 27 Oct 2025 02:46:31: [3051 MB] #  **IMPORTANT** 
+INFO  @ 27 Oct 2025 02:46:31: [3051 MB] #  Please review the cutoff analysis result in /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/5aza_pool/5aza_cutoff_analysis.tsv to verify 
+INFO  @ 27 Oct 2025 02:46:31: [3051 MB] #   if the choices of lower, upper and prescanning cutoff are appropriate. 
+INFO  @ 27 Oct 2025 02:46:31: [3051 MB] #   Please read the message in the section 'Choices of cutoff values' by running 
+INFO  @ 27 Oct 2025 02:46:31: [3051 MB] #   `macs3 hmmratac -h` for detail. 
+INFO  @ 27 Oct 2025 02:46:31: [3051 MB] #  **** 
+INFO  @ 27 Oct 2025 02:49:23: [3871 MB] #  We randomly pick 1000 regions for training 
+INFO  @ 27 Oct 2025 02:49:23: [3871 MB] #  We expand the training regions with 1000 basepairs and merge overlap 
+INFO  @ 27 Oct 2025 02:49:23: [3871 MB] #4 Train Hidden Markov Model with Multivariate Gaussian Emission 
+INFO  @ 27 Oct 2025 02:49:23: [3871 MB] #  Extract signals in training regions with bin size of 10 
+INFO  @ 27 Oct 2025 02:49:24: [3871 MB] #  Use Baum-Welch algorithm to train the HMM 
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1047: RuntimeWarning: invalid value encountered in scalar divide
+  shape=mean_X**2 / var_X,
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1048: RuntimeWarning: invalid value encountered in scalar divide
+  scale=var_X / mean_X,  # numpy uses theta = 1 / beta
+INFO  @ 27 Oct 2025 02:49:28: [3871 MB] #   HMM converged: True 
+Traceback (most recent call last):
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 1017, in <module>
+    main()
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 103, in main
+    run(args)
+  File "/home/bouille251/venv_MACS3/lib/python3.10/site-packages/MACS3/Commands/hmmratac_cmd.py", line 356, in run
+    i_open_region = np.where(means_sum == max(means_sum))[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "prescan cutoff = 8"
+[1] "lower cutoff = 15"
+[1] "upper cutoff = 75"
+null device 
+          1 
+
+
+
+
+------------ done ------------
+
+
+
+
+
+
+
+
+------------ control - pool ------------
+
+
+
+
+INFO  @ 27 Oct 2025 02:49:30: [119 MB] 
+# Command line: hmmratac -i C1.bedpe⁠ C2.bedpe⁠ C3.bedpe⁠ -f BEDPE -n control --binsize 10 -c 8 -l 15 -u 75 --min-frag-p 0.05 --hmm-type poisson --decoding-steps 6000 --minlen 75 --save-states --outdir /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/control_pool
+# Random seed selected as: 10151
+# Use --hmm-type to select a Gaussian ('gaussian') or Poisson ('poisson') model for the hidden markov model in HMMRATAC. Default: 'gaussian'. 
+ 
+INFO  @ 27 Oct 2025 02:49:30: [119 MB] #1 Read fragments from BEDPE file... 
+INFO  @ 27 Oct 2025 02:49:31: [201 MB]  1000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:32: [204 MB]  2000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:33: [208 MB]  3000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:34: [213 MB]  4000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:35: [223 MB]  5000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:36: [229 MB]  6000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:37: [238 MB]  7000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:38: [253 MB]  8000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:39: [258 MB]  9000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:40: [266 MB]  10000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:41: [274 MB]  11000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:42: [281 MB]  12000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:43: [290 MB]  13000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:44: [296 MB]  14000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:45: [312 MB]  15000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:46: [320 MB]  16000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:47: [327 MB]  17000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:48: [332 MB]  18000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:49: [342 MB]  19000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:50: [348 MB]  20000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:51: [357 MB]  21000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:52: [369 MB]  22000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:52: [372 MB]  23000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:53: [379 MB]  24000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:54: [387 MB]  25000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:55: [394 MB]  26000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:56: [403 MB]  27000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:57: [409 MB]  28000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:58: [418 MB]  29000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:49:59: [427 MB]  30000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:00: [435 MB]  31000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:01: [441 MB]  32000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:02: [450 MB]  33000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:03: [456 MB]  34000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:04: [465 MB]  35000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:05: [472 MB]  36000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:06: [481 MB]  37000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:07: [487 MB]  38000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:08: [500 MB]  39000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:08: [506 MB]  40000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:09: [516 MB]  41000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:10: [521 MB]  42000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:11: [531 MB]  43000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:12: [536 MB]  44000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:13: [546 MB]  45000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:14: [552 MB]  46000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:15: [564 MB]  47000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:16: [569 MB]  48000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:17: [577 MB]  49000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:18: [585 MB]  50000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:19: [592 MB]  51000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:20: [604 MB]  52000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:21: [610 MB]  53000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:22: [616 MB]  54000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:23: [624 MB]  55000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:24: [631 MB]  56000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:24: [639 MB]  57000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:25: [647 MB]  58000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:26: [665 MB]  59000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:27: [666 MB]  60000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:28: [674 MB]  61000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:29: [681 MB]  62000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:30: [689 MB]  63000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:31: [707 MB]  64000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:32: [712 MB]  65000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:33: [722 MB]  66000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:34: [727 MB]  67000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:35: [737 MB]  68000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:36: [743 MB]  69000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:37: [753 MB]  70000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:38: [759 MB]  1000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:39: [764 MB]  2000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:40: [772 MB]  3000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:41: [779 MB]  4000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:42: [787 MB]  5000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:43: [797 MB]  6000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:44: [803 MB]  7000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:45: [810 MB]  8000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:46: [817 MB]  9000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:47: [825 MB]  10000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:48: [833 MB]  11000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:49: [841 MB]  12000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:50: [848 MB]  13000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:51: [856 MB]  14000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:51: [866 MB]  15000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:52: [876 MB]  16000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:53: [883 MB]  17000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:54: [891 MB]  18000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:55: [898 MB]  19000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:56: [906 MB]  20000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:57: [914 MB]  21000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:58: [921 MB]  22000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:50:59: [930 MB]  23000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:00: [938 MB]  24000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:01: [946 MB]  25000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:02: [954 MB]  26000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:03: [961 MB]  27000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:04: [969 MB]  28000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:05: [976 MB]  29000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:06: [982 MB]  30000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:07: [990 MB]  31000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:08: [998 MB]  32000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:09: [1005 MB]  33000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:09: [1013 MB]  34000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:10: [1021 MB]  35000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:11: [1028 MB]  36000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:12: [1036 MB]  37000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:13: [1044 MB]  38000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:14: [1051 MB]  39000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:15: [1059 MB]  40000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:16: [1066 MB]  41000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:17: [1074 MB]  42000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:18: [1082 MB]  43000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:19: [1090 MB]  44000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:20: [1098 MB]  45000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:21: [1105 MB]  46000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:22: [1113 MB]  47000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:23: [1121 MB]  48000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:24: [1128 MB]  49000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:25: [1147 MB]  50000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:26: [1147 MB]  51000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:27: [1147 MB]  52000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:27: [1152 MB]  53000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:28: [1162 MB]  54000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:29: [1168 MB]  55000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:30: [1175 MB]  56000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:31: [1184 MB]  57000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:32: [1190 MB]  58000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:33: [1199 MB]  59000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:34: [1205 MB]  60000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:35: [1216 MB]  61000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:36: [1223 MB]  62000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:37: [1228 MB]  63000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:38: [1239 MB]  64000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:39: [1243 MB]  65000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:40: [1254 MB]  66000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:41: [1258 MB]  67000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:42: [1261 MB]  1000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:43: [1269 MB]  2000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:44: [1275 MB]  3000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:45: [1284 MB]  4000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:46: [1302 MB]  5000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:47: [1302 MB]  6000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:48: [1309 MB]  7000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:48: [1315 MB]  8000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:49: [1327 MB]  9000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:50: [1330 MB]  10000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:51: [1340 MB]  11000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:52: [1345 MB]  12000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:53: [1358 MB]  13000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:54: [1364 MB]  14000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:55: [1370 MB]  15000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:56: [1377 MB]  16000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:57: [1385 MB]  17000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:58: [1396 MB]  18000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:51:59: [1403 MB]  19000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:00: [1410 MB]  20000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:01: [1418 MB]  21000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:02: [1425 MB]  22000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:03: [1433 MB]  23000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:03: [1440 MB]  24000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:04: [1448 MB]  25000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:05: [1456 MB]  26000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:06: [1465 MB]  27000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:07: [1471 MB]  28000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:08: [1480 MB]  29000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:09: [1486 MB]  30000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:10: [1495 MB]  31000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:11: [1501 MB]  32000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:12: [1510 MB]  33000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:13: [1517 MB]  34000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:14: [1526 MB]  35000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:15: [1536 MB]  36000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:16: [1540 MB]  37000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:17: [1549 MB]  38000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:18: [1555 MB]  39000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:19: [1561 MB]  40000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:20: [1570 MB]  41000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:21: [1580 MB]  42000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:21: [1585 MB]  43000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:22: [1595 MB]  44000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:23: [1600 MB]  45000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:24: [1608 MB]  46000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:25: [1616 MB]  47000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:26: [1623 MB]  48000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:27: [1631 MB]  49000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:52:28: [1638 MB]  50000000 fragments parsed 
+INFO  @ 27 Oct 2025 02:56:38: [1639 MB] #  Read 188004142 fragments. 
+INFO  @ 27 Oct 2025 02:56:38: [1639 MB] #2 Use EM algorithm to estimate means and stddevs of fragment lengths 
+INFO  @ 27 Oct 2025 02:56:38: [1639 MB] #  for mono-, di-, and tri-nucleosomal signals... 
+INFO  @ 27 Oct 2025 02:56:38: [1639 MB] # A random seed 10151 has been used in the sampling function 
+INFO  @ 27 Oct 2025 02:57:07: [1876 MB] # Downsampled 2305442 fragments will be used for EM training... 
+INFO  @ 27 Oct 2025 03:06:11: [1876 MB] # Reached convergence after 16 iterations 
+INFO  @ 27 Oct 2025 03:06:11: [1876 MB] #  The means and stddevs after EM: 
+INFO  @ 27 Oct 2025 03:06:11: [1876 MB] #                         short       mono         di        tri 
+INFO  @ 27 Oct 2025 03:06:11: [1876 MB] #             means:         50      150.5      352.3        600 
+INFO  @ 27 Oct 2025 03:06:11: [1876 MB] #           stddevs:         20       41.8       68.1         20 
+INFO  @ 27 Oct 2025 03:06:11: [1876 MB] #  Compute the weights for each fragment length for each of the four signal types 
+INFO  @ 27 Oct 2025 03:06:49: [1912 MB] #  Generate short, mono-, di-, and tri-nucleosomal signals 
+INFO  @ 27 Oct 2025 04:36:43: [2180 MB] #  Pile up all fragments 
+INFO  @ 27 Oct 2025 04:38:36: [3195 MB] #  Convert pileup to fold-change over average signal 
+INFO  @ 27 Oct 2025 04:38:59: [3195 MB] #3 Look for training set from 188004142 fragments 
+INFO  @ 27 Oct 2025 04:38:59: [3195 MB] #  Call peak above within fold-change range of 15 and 75. 
+INFO  @ 27 Oct 2025 04:38:59: [3195 MB] #   The minimum length of the region is set as the average template/fragment length in the dataset: 67 
+INFO  @ 27 Oct 2025 04:38:59: [3195 MB] #   The maximum gap to merge nearby significant regions is set as the flanking size to extend training regions: 1000 
+INFO  @ 27 Oct 2025 04:39:09: [3195 MB] #  Total training regions called after applying the lower cutoff 15: 10210 
+INFO  @ 27 Oct 2025 04:39:09: [3195 MB] #  Total training regions after filtering with upper cutoff 75: 9988 
+INFO  @ 27 Oct 2025 04:39:09: [3195 MB] #  **IMPORTANT** 
+INFO  @ 27 Oct 2025 04:39:09: [3195 MB] #  Please review the cutoff analysis result in /mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/macs3/hmmratac/control_pool/control_cutoff_analysis.tsv to verify 
+INFO  @ 27 Oct 2025 04:39:09: [3195 MB] #   if the choices of lower, upper and prescanning cutoff are appropriate. 
+INFO  @ 27 Oct 2025 04:39:09: [3195 MB] #   Please read the message in the section 'Choices of cutoff values' by running 
+INFO  @ 27 Oct 2025 04:39:09: [3195 MB] #   `macs3 hmmratac -h` for detail. 
+INFO  @ 27 Oct 2025 04:39:09: [3195 MB] #  **** 
+INFO  @ 27 Oct 2025 04:42:11: [4037 MB] #  We randomly pick 1000 regions for training 
+INFO  @ 27 Oct 2025 04:42:11: [4037 MB] #  We expand the training regions with 1000 basepairs and merge overlap 
+INFO  @ 27 Oct 2025 04:42:11: [4037 MB] #4 Train Hidden Markov Model with Multivariate Gaussian Emission 
+INFO  @ 27 Oct 2025 04:42:11: [4037 MB] #  Extract signals in training regions with bin size of 10 
+INFO  @ 27 Oct 2025 04:42:11: [4037 MB] #  Use Baum-Welch algorithm to train the HMM 
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1047: RuntimeWarning: invalid value encountered in scalar divide
+  shape=mean_X**2 / var_X,
+/home/bouille251/venv_MACS3/lib/python3.10/site-packages/hmmlearn/hmm.py:1048: RuntimeWarning: invalid value encountered in scalar divide
+  scale=var_X / mean_X,  # numpy uses theta = 1 / beta
+INFO  @ 27 Oct 2025 04:42:16: [4037 MB] #   HMM converged: True 
+Traceback (most recent call last):
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 1017, in <module>
+    main()
+  File "/home/bouille251/venv_MACS3/bin/macs3", line 103, in main
+    run(args)
+  File "/home/bouille251/venv_MACS3/lib/python3.10/site-packages/MACS3/Commands/hmmratac_cmd.py", line 356, in run
+    i_open_region = np.where(means_sum == max(means_sum))[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+Attachement du package : ‘dplyr’
+
+Les objets suivants sont masqués depuis ‘package:stats’:
+
+    filter, lag
+
+Les objets suivants sont masqués depuis ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "prescan cutoff = 8"
+[1] "lower cutoff = 15"
+[1] "upper cutoff = 75"
+null device 
+          1 
+
+
+
+
+------------ done ------------
+
+
+
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.2.1
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package to force all conflicts to become errors
+
+Attachement du package : ‘flextable’
+
+L'objet suivant est masqué depuis ‘package:purrr’:
+
+    compose
+
+
+Attachement du package : ‘ggpubr’
+
+Les objets suivants sont masqués depuis ‘package:flextable’:
+
+    border, font, rotate
+
+[1] "5aza_accessible_regions.narrowPeak"
+[1] "control_accessible_regions.narrowPeak"
+null device 
+

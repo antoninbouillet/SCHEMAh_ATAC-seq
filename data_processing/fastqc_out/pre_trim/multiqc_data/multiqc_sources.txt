@@ -1,0 +1,17 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	5a1_R1_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/5a1_R1_001_fastqc.zip
+FastQC	all_sections	5a1_R2_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/5a1_R2_001_fastqc.zip
+FastQC	all_sections	5a2_R1_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/5a2_R1_001_fastqc.zip
+FastQC	all_sections	5a2_R2_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/5a2_R2_001_fastqc.zip
+FastQC	all_sections	5a3_R1_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/5a3_R1_001_fastqc.zip
+FastQC	all_sections	5a3_R2_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/5a3_R2_001_fastqc.zip
+FastQC	all_sections	C1_R1_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/C1_R1_001_fastqc.zip
+FastQC	all_sections	C1_R2_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/C1_R2_001_fastqc.zip
+FastQC	all_sections	C2_R1_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/C2_R1_001_fastqc.zip
+FastQC	all_sections	C2_R2_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/C2_R2_001_fastqc.zip
+FastQC	all_sections	C3_R1_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/C3_R1_001_fastqc.zip
+FastQC	all_sections	C3_R2_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/C3_R2_001_fastqc.zip
+FastQC	all_sections	dG1_R1_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/dG1_R1_001_fastqc.zip
+FastQC	all_sections	dG1_R2_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/dG1_R2_001_fastqc.zip
+FastQC	all_sections	dG2_R1_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/dG2_R1_001_fastqc.zip
+FastQC	all_sections	dG2_R2_001	/mnt/MERSEA/work/wk_SCHEMAh/wk_SCHEMAh_ADN/ATAC-seq/fastqc_out/pre_trim/dG2_R2_001_fastqc.zip
